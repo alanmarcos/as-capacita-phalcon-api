@@ -1,0 +1,116 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Filmes",
+		"_postman_id": "f4ab5c85-54e7-9673-77a5-8bf12e93b4b8",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar filmes",
+			"request": {
+				"url": "192.168.115.54:8080/v1/filmes/",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sName",
+							"value": "Inception2",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Adicionar Filmes",
+			"request": {
+				"url": "192.168.115.54:8080/v1/filmes/",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sName",
+							"value": "Inception2",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Filme",
+			"request": {
+				"url": "192.168.115.54:8080/v1/filmes/1",
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sName",
+							"value": "Inception2",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir Filme",
+			"request": {
+				"url": "192.168.115.54:8080/v1/filmes/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sName",
+							"value": "Inception2",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar Único Filme",
+			"request": {
+				"url": "192.168.115.54:8080/v1/filmes/2",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sName",
+							"value": "Inception2",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
